@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^(index|contact|registration)$ $1.php [NC,L]
+
+RewriteRule ^post/(\d+)$ post.php?pid=$1 [NC,L] 
+
+RewriteRule ^the_catagory/(\d+)$ the_catagory.php?catagory=$1 [NC,L]
+
+RewriteRule ^auther/([a-zA-Z0-9]+|)/(\d+)$ auther.php?auther=$1&pid=$2 [NC,L]
+
+

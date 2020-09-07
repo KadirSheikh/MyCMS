@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^(index|viewpost|addpost|addcatagory|view_all_comments|viewuser|adduser|profile)$ $1.php [NC,L]
+
+
+
+
